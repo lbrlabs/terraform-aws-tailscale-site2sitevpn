@@ -24,7 +24,9 @@
 
 ## Modules
 
-No modules.
+| Name | Source | Version |
+|------|--------|---------|
+| <a name="module_amz-tailscale-client"></a> [amz-tailscale-client](#module\_amz-tailscale-client) | lbrlabs/tailscale/cloudinit | 0.0.4 |
 
 ## Outputs
 
@@ -35,7 +37,6 @@ No outputs.
 | Name | Version |
 |------|---------|
 | <a name="provider_aws"></a> [aws](#provider\_aws) | >= 5.30 |
-| <a name="provider_cloudinit"></a> [cloudinit](#provider\_cloudinit) | >= 2.0 |
 
 ## Requirements
 
@@ -61,5 +62,4 @@ No outputs.
 | [aws_ssm_parameter.tailnet_key](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ssm_parameter) | resource |
 | [aws_ami.main](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ami) | data source |
 | [aws_iam_policy_document.main](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/iam_policy_document) | data source |
-| [cloudinit_config.main](https://registry.terraform.io/providers/hashicorp/cloudinit/latest/docs/data-sources/config) | data source |
 <!-- END_TF_DOCS -->

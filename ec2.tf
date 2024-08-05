@@ -41,7 +41,7 @@ resource "aws_launch_template" "main" {
     name = aws_iam_instance_profile.main.name
   }
 
-  user_data = data.cloudinit_config.main.rendered
+  user_data = module.amz-tailscale-client.rendered
 
 
 
