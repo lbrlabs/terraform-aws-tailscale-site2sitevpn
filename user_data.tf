@@ -1,6 +1,6 @@
 module "amz-tailscale-client" {
   source           = "lbrlabs/tailscale/cloudinit"
-  version          = "0.0.4"
+  version          = "0.0.5"
   auth_key         = var.tailscale_auth_key
   enable_ssh       = true
   hostname         = var.name
